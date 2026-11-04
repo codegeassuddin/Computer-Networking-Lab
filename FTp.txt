@@ -1,0 +1,6 @@
+Command	                 Purpose	                  Expected
+put file.txt	      Upload the file      	Transfer successful
+dir	            List server files	       file.txt appears
+get file.txt	         Download it	       Transfer successful
+delete file.txt	        Delete it	               Deleted
+get file.txt	         Try again	       Fails, because the file is gone
