@@ -23,3 +23,7 @@ interface fa0/5
  switchport mode trunk
 exit
 end
+
+enable
+show vlan brief
+show interfaces trunk
